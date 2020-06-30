@@ -29,3 +29,4 @@ Route::get('/wel', function () {
 });
 
 Route::post('/transcribe', 'TranscribeController@transcribe');
+Route::post('/transcription', 'TranscriptionController@create');
